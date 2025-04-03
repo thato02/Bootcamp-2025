@@ -1,0 +1,68 @@
+body {
+    background-color: #8aaee0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.button {
+    background-color: #638ec8;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    color: white;
+    border-color: #395886;
+    margin: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.header {
+    text-align: center;
+}
+.bio {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.logo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.welcome-section {
+    text-decoration: underline;
+    text-align: center;
+}
+
+h1 {
+font-size: 75px;
+color: rgb(5, 57, 87);
+}
+
+li {
+color: aliceblue;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h2 {
+color: aliceblue;
+}
+#about {
+    background-color: #395886;
+}
+#about img {
+    width: 120px;
+    height: 150px;
+    border-radius: 80%;
+    float: right;
+}
+
+.Address {
+    background-color: #395886;
+    color: aliceblue;
+}
