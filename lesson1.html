@@ -1,82 +1,15 @@
 <!DOCTYPE html>
+<html>
 <head>
     <title>About Thato Phaahle</title>
-<style>
-    body {
-        background-color: #8aaee0;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
-    p {
-        color: aliceblue;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    .button {
-        background-color: #638ec8;
-        padding: 10px 20px;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: 16px;
-        color: white;
-        border-color: #395886;
-        margin: 8px;
-        position: relative;
-        display: inline-block;
-    }
-
-    .header {
-        text-align: center;
-    }
-    .bio {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-    }
-
-    .logo img {
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-    }
-
-    .welcome-section {
-        text-decoration: underline;
-        text-align: center;
-    }
-
-h1 {
-    font-size: 75px;
-    color: rgb(5, 57, 87);
-}
-
-li {
-    color: aliceblue;
-    font-family: 'Times New Roman', Times, serif;
-}
-h2 {
-    color: aliceblue;
-}
-    .About-thato {
-        background-color: #395886;
-    }
-    .About-thato img {
-        width: 120px;
-        height: 150px;
-        border-radius: 80%;
-        float: right;
-    }
-
-    .Address {
-        background-color: #395886;
-        color: aliceblue;
-    }
-</style>
-        <body>
+    <link rel="stylesheet" href="lesson1.css">
+</head>
+<body>
         <div class="header">
-            <nav>
+            <nav id="about-buttons">
                 <button class="button">Home</button>
-                <button class="button">About</button>
-                <button class="button">Contact me</button>
+                <a href="#about" class="button">About</a>
+                <a href="#contact-me" class="button">Contact me</a>
             </nav>
         </div>
 
@@ -89,7 +22,8 @@ h2 {
             <h1>WELCOME TO MY PROFILE</h1>
         </section>
 
-        <section class="About-thato">
+        <section class="About">
+        <section id="about">
             <h2>Thato Phaahle</h2>
                     <img src="c:\Users\Thato\Desktop\High_DA27302-058.jpg" alt="Thato"/>
                     <p>Hi, my name is Thato Phaahle, a 22 year old IT enthusiast with a passion for innovation <br>
@@ -109,8 +43,10 @@ h2 {
                     <li>Deep-sea diving</li>
                     </p>
         </section>
+        </section>
 
         <section class="Address">
+            <section id="contact-me">
             <p>
                <strong>Location: <br></strong>
                The Orchards <br> Pretoria <br> 0182
@@ -119,7 +55,7 @@ h2 {
                <strong>Social media account:</strong> <br>
                Wattpad: @tears_writes
             </p>
-            
+        </section>
         </section>
     </body>
-</head> 
+</html>
